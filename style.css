@@ -1,7 +1,7 @@
 * {
-   padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,36 +11,52 @@ body {
 
 header {
     background: #2965f1;
+padding: 23px 0;
 
-    padding: 23px 0;
-font-weight: 700;
-font-size: 20px;
-color: #fff;
+
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+    
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
 .main-section {
-    /* Стили для первой секции */
+    padding: 60px 0;
+
+    
+    
+    min-height: 100vh;
+    background-color: #fafaff;
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+ 
+font-weight: 700;
+font-size: 48px;
+color: #303030;
+margin-bottom: 20px;
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+    
+font-weight: 400;
+font-size: 18px;
+color: #303030;
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+    max-width: 715px;
+    margin-bottom: 296px;
+  
 }
 
 
 .about-section {
-    /* Стили для второй секции */
+    background-color: #fff;
+    padding: 100px 0;
 }
 
 select {
@@ -79,7 +95,8 @@ table {
     /* Стили для таблицы */
 }
 
-th, td {
+th,
+td {
     /* Стили для ячеек таблицы */
 }
 
