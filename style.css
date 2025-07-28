@@ -66,8 +66,9 @@ select {
     width: 150px;
     height: 36px;
     background: rgba(255, 255, 255, 0);
-    background: url(./images/ep_arrow-down.svg) no-repeat right;
+    background: url(./images/ep_arrow-down.svg) no-repeat right 12px top 50%;
     appearance: none;
+    padding-left: 12px;
 }
 
 .section-title {
@@ -89,7 +90,7 @@ select {
 }
 
 .books-list {
-    padding-left: 20px;
+    padding:0  20px;
 
     font-weight: 400;
     font-size: 16px;
@@ -143,7 +144,7 @@ table {
 }
 
 th {
-    padding: 12px 0;
+    padding: 12px 15px;
 
     font-weight: 700;
     font-size: 14px;
@@ -152,7 +153,7 @@ th {
 }
 
 td {
-    padding: 12px 0px 12px 15px;
+    padding: 12px  15px;
     font-weight: 400;
     font-size: 14px;
     color: #303030;
@@ -161,11 +162,12 @@ td {
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding: 27px 0;
+    padding: 26px 0;
 }
 
 .footer-link { 
 font-weight: 400;
 font-size: 14px;
 color: #2965f1;
+text-decoration-line: none;
 }
