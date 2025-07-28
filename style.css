@@ -79,7 +79,7 @@ select {
 }
 
 .frameworks-list {
-    padding-left: 20px;
+    padding: 0 20px;
     list-style-image: url(./images/solar_map-arrow-up-bold.svg);
 
     font-weight: 400;
